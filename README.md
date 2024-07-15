@@ -3,7 +3,7 @@
 <br>
 
 ## Overview
- In this project we will see how return the <strong>top 3 products</strong> that visited by customer and <strong>updated every 3 seconds</strong>
+In this project, we will see how to <mark>return the top 3 products visited by customers and update the list every 3 seconds.</mark> To achieve this, we use <strong>RScoredSortedSetReactive</strong> for efficiently managing and accessing products based on their visit scores. Additionally, we utilize <strong>Sinks.Many</strong> to enable real-time updates, ensuring that the top products are refreshed and delivered to users seamlessly.
  
  <br>
  
